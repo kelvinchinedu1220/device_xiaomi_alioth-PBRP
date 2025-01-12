@@ -11,8 +11,8 @@ $(call inherit-product, \
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := omni_alioth
+PRODUCT_NAME := pb_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Mi 11x
+PRODUCT_MODEL := POCO F3
