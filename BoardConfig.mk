@@ -17,10 +17,6 @@
 
 DEVICE_PATH := device/xiaomi/alioth
 
-# Inherit from sm8250-common
-#-include device/xiaomi/sm8250-common/BoardConfigCommon.mk
-#-include vendor/xiaomi/alioth/BoardConfigVendor.mk
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -69,6 +65,7 @@ BOARD_VENDOR_CMDLINE += androidboot.fastboot=1 twrpfastboot=1
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_VENDOR_BASE    := 0x00000000
