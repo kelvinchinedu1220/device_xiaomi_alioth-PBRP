@@ -16,9 +16,9 @@ on:
     types: [started]
 
 env:
-  MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0
+  MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1
   DEVICE: alioth
-  DT_LINK: https://github.com/hraj9258/device_xiaomi_alioth-PBRP
+  DT_LINK: https://github.com/kelvinchinedu1220/device_xiaomi_alioth-PBRP
   DT_PATH: device/xiaomi/alioth
   TARGET: bootimage
   TZ: Asia/Kolkata
