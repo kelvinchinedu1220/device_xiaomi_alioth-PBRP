@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_alioth.mk
+    $(LOCAL_DIR)/pb_alioth.mk
 
